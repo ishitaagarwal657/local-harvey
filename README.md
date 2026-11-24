@@ -92,3 +92,4 @@ pytest tests/ -q
 ## Licence note
 
 Application code is provided for the assignment evaluation. Models and libraries retain their upstream licences (see `docs/MODEL_LICENCES.md`).
+> Built on ideas from the open-source Sellbird project. See [docs/LEGACY_CODE_NOTICE.md](docs/LEGACY_CODE_NOTICE.md) for details. Upstream code is not included in this repo.
