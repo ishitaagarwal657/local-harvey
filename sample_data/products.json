@@ -1,0 +1,28 @@
+[
+  {
+    "company_name": "Bookwell",
+    "name": "Bookwell Pro",
+    "description": "All-in-one online booking, reminders and payment collection for field-service and clinic businesses.",
+    "value_props": [
+      "Reduce no-shows by 40% with automated SMS/email reminders",
+      "Accept deposits online",
+      "Simple calendar sync with Google & Outlook",
+      "White-label client portal"
+    ],
+    "pricing_model": "Subscription — $79–$199/mo depending on seats",
+    "target_segments": ["Roofing companies", "Dental practices", "HVAC contractors", "Local clinics"]
+  },
+  {
+    "company_name": "FlowOps",
+    "name": "FlowOps Core",
+    "description": "No-code approval and handoff workflows for operations, finance and customer success teams.",
+    "value_props": [
+      "Cut approval cycle time by 50%",
+      "Full audit trail for compliance",
+      "Integrates with Slack, email and existing tools",
+      "Role-based routing without IT tickets"
+    ],
+    "pricing_model": "Per active user — starts at $12/user/mo",
+    "target_segments": ["Mid-market ops teams", "Finance controllers", "Customer success managers"]
+  }
+]

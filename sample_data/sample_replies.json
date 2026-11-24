@@ -1,0 +1,62 @@
+[
+  {
+    "id": "reply_1",
+    "label": "Interested",
+    "original_email_snippet": "Hi Elena, I noticed Harbor Dental still relies on phone booking...",
+    "reply_text": "Hi, thanks for reaching out. We've been talking about online booking for a while. Can you send over a short demo or pricing overview? Happy to chat next week if the timing works."
+  },
+  {
+    "id": "reply_2",
+    "label": "Meeting request",
+    "original_email_snippet": "Marcus — your crews are losing time to no-shows...",
+    "reply_text": "Interesting. I'm free Thursday 2–4pm MT or Friday morning. Send a calendar invite and we can talk for 20 minutes."
+  },
+  {
+    "id": "reply_3",
+    "label": "Objection",
+    "original_email_snippet": "Priya, many HVAC teams are still taking bookings over the phone...",
+    "reply_text": "We already pay for ServiceTitan. Not sure we need another tool. What would this replace exactly?"
+  },
+  {
+    "id": "reply_4",
+    "label": "Not interested",
+    "original_email_snippet": "...",
+    "reply_text": "Thanks but we're all set for the next 12 months. Please remove us from your list."
+  },
+  {
+    "id": "reply_5",
+    "label": "Out of office",
+    "original_email_snippet": "...",
+    "reply_text": "I am currently out of the office returning Monday Nov 25. For urgent matters contact the front desk at 206-555-0142."
+  },
+  {
+    "id": "reply_6",
+    "label": "Wrong person",
+    "original_email_snippet": "...",
+    "reply_text": "I'm not the right person for software decisions. You should reach out to our office manager, Dana Chen (dana@harbordental.example)."
+  },
+  {
+    "id": "reply_7",
+    "label": "Interested",
+    "original_email_snippet": "James — approvals living in email threads...",
+    "reply_text": "This is timely. We just finished a painful audit. Can you share a one-pager on audit trail features and typical implementation time for a 200-person ops team?"
+  },
+  {
+    "id": "reply_8",
+    "label": "Objection",
+    "original_email_snippet": "...",
+    "reply_text": "Looks interesting but we are in the middle of a Salesforce rollout. Revisit in Q2?"
+  },
+  {
+    "id": "reply_9",
+    "label": "Meeting request",
+    "original_email_snippet": "...",
+    "reply_text": "Let's do a 15-min intro call. My assistant will send times — does Tuesday work?"
+  },
+  {
+    "id": "reply_10",
+    "label": "Unsubscribe",
+    "original_email_snippet": "...",
+    "reply_text": "Please stop emailing me. Unsubscribe."
+  }
+]

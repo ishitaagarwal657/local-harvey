@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Bookwell",
+    "website": "https://bookwell.example",
+    "description": "Online booking and scheduling platform for local service businesses (roofers, dentists, HVAC, clinics). Helps reduce no-shows and collect deposits online.",
+    "industry": "SaaS / Vertical Software"
+  },
+  {
+    "name": "FlowOps",
+    "website": "https://flowops.example",
+    "description": "Lightweight workflow automation for mid-market operations teams. Focus on approvals, handoffs and audit trails without enterprise complexity.",
+    "industry": "B2B SaaS / Operations"
+  }
+]

@@ -1,0 +1,30 @@
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+aiosqlite>=0.20.0
+httpx>=0.27.0
+pyyaml>=6.0.2
+
+# Local AI
+ollama>=0.4.0                 # Official Ollama Python client
+sentence-transformers>=3.1.0  # Local embeddings (MIT)
+torch>=2.4.0                  # Required by sentence-transformers (CPU ok)
+
+# Hardware detection
+psutil>=6.0.0
+GPUtil>=1.4.0                 # Optional GPU detection
+
+# Research (permitted public web)
+beautifulsoup4>=4.12.3
+lxml>=5.3.0
+playwright>=1.48.0            # Optional for deeper research
+
+# Utils
+rich>=13.9.0
+tenacity>=9.0.0
+
+# Tests
+pytest>=8.0.0

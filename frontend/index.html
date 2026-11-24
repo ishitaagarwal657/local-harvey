@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LocalHarvey — Local AI Sales Agent</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="brand">
+        <span class="logo">LH</span>
+        <div>
+          <h1>LocalHarvey</h1>
+          <p class="tagline">Fully Local Multi-Product AI Sales Agent</p>
+        </div>
+      </div>
+      <div class="status-bar" id="statusBar">
+        <span class="dot" id="statusDot"></span>
+        <span id="statusText">Checking…</span>
+      </div>
+    </header>
+
+    <main class="main">
+      <aside class="sidebar">
+        <nav>
+          <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+          <button class="nav-btn" data-view="company">Company & Products</button>
+          <button class="nav-btn" data-view="prospects">Prospects</button>
+          <button class="nav-btn" data-view="workflow">Full Workflow</button>
+          <button class="nav-btn" data-view="replies">Reply Classifier</button>
+          <button class="nav-btn" data-view="logs">Inference Logs</button>
+        </nav>
+        <div class="sidebar-footer">
+          <button id="seedBtn" class="btn secondary">Seed Demo Data</button>
+          <p class="tiny">Zero paid LLM • Ollama only</p>
+        </div>
+      </aside>
+
+      <section class="content" id="content">
+        <!-- views injected here -->
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

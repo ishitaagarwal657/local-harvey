@@ -1,0 +1,43 @@
+"""
+Problem statement generation — turns research + signals into a clear problem narrative.
+"""
+from typing import Dict, Any
+from ..ollama_client import llm
+
+SYSTEM = """You are a skilled sales engineer and copywriter.
+Write concise, credible problem statements that a prospect would recognise as their own situation.
+Avoid hype. Be specific."""
+
+async def generate_problem_statement(
+    prospect: Dict[str, Any],
+    research: Dict[str, Any],
+    signals: Dict[str, Any],
+    product: Dict[str, Any]
+) -> Dict[str, Any]:
+    prompt = f"""Write a problem statement for outreach.
+
+Prospect: {prospect.get('company_name')}
+Contact role: {prospect.get('contact_title')}
+
+Research:
+{research}
+
+Detected signals:
+{signals}
+
+Our product: {product.get('name')} — {product.get('description')}
+
+Return JSON:
+- problem_statement: 2-4 sentences that articulate the likely problem in the prospect's language
+- why_now: why this is timely
+- impact_if_unsolved: business impact
+- how_we_help: one sentence bridge to our product (no hard sell)
+"""
+
+    result = await llm.generate_json(prompt, system=SYSTEM, agent="problem_statement")
+    return {
+        "problem": result["parsed"],
+        "model_used": result["model"],
+        "latency_ms": result["latency_ms"],
+        "prompt_hash": result["prompt_hash"]
+    }

@@ -1,0 +1,102 @@
+[
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Harbor Dental Studio",
+    "website": "https://harbordental.example",
+    "contact_name": "Elena Park",
+    "contact_title": "Practice Manager",
+    "contact_email": "elena@harbordental.example",
+    "location": "Seattle, WA",
+    "raw_data": "Independent dental practice, 4 chairs, currently using paper appointment book + occasional Google Calendar. Website has phone number only, no online booking form. Hiring a front-desk coordinator. Recent Google reviews mention long hold times when calling to book."
+  },
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Highline Roofing",
+    "website": "https://highlineroofing.example",
+    "contact_name": "Marcus Reed",
+    "contact_title": "Owner",
+    "contact_email": "marcus@highlineroofing.example",
+    "location": "Denver, CO",
+    "raw_data": "Residential roofing company, 12 crews. Website is brochure-style. Customers call or fill a contact form. No real-time availability. Recently ran Facebook ads for storm damage. Owner mentioned in a local podcast that no-shows and last-minute cancellations waste crew time."
+  },
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Phoenix HVAC Services",
+    "website": "https://phoenixhvac.example",
+    "contact_name": "Priya Nair",
+    "contact_title": "Operations Manager",
+    "contact_email": "priya@phoenixhvac.example",
+    "location": "Phoenix, AZ",
+    "raw_data": "HVAC installation & repair. 8 technicians. Currently using ServiceTitan for dispatch but still taking new customer bookings over phone. Looking for a lighter online booking option for residential clients. Job posting for Customer Experience Coordinator mentions reducing phone volume."
+  },
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Lakeside Family Dentistry",
+    "website": "https://lakesidedental.example",
+    "contact_name": "Dr. Aaron Kim",
+    "contact_title": "Owner / Dentist",
+    "contact_email": "aaron@lakesidedental.example",
+    "location": "Minneapolis, MN",
+    "raw_data": "Two-location family dental group. Uses Dentrix for clinical charts but booking is still mostly phone + paper day sheets at the front desk. Staff turnover high; new hires struggle with the booking process. Interested in patient self-scheduling."
+  },
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Summit Plumbing Co",
+    "website": "https://summitplumbing.example",
+    "contact_name": "Carla Mendez",
+    "contact_title": "Office Manager",
+    "contact_email": "carla@summitplumbing.example",
+    "location": "Austin, TX",
+    "raw_data": "Residential + light commercial plumbing. 6 trucks. Website has a contact form that emails the office; no calendar integration. Frequently double-books emergency calls. Exploring tools after a busy storm season."
+  },
+  {
+    "product_name": "FlowOps Core",
+    "company_name": "Northstar Logistics",
+    "website": "https://northstarlog.example",
+    "contact_name": "James Okonkwo",
+    "contact_title": "VP of Operations",
+    "contact_email": "james@northstarlog.example",
+    "location": "Chicago, IL",
+    "raw_data": "Regional 3PL with 200+ employees. Approvals for rate exceptions and carrier changes currently live in email threads and spreadsheets. Compliance team complains about missing audit trails. Recently raised Series B; growth is outpacing process maturity."
+  },
+  {
+    "product_name": "FlowOps Core",
+    "company_name": "BrightPath Customer Success",
+    "website": "https://brightpathcs.example",
+    "contact_name": "Sofia Alvarez",
+    "contact_title": "Director of Customer Success",
+    "contact_email": "sofia@brightpathcs.example",
+    "location": "Remote / NYC hub",
+    "raw_data": "B2B SaaS CS org, 40 CSMs. Escalation and credit approvals go through Slack + email. No single source of truth for who approved what. Looking for lightweight workflow tool that does not require full IT project."
+  },
+  {
+    "product_name": "FlowOps Core",
+    "company_name": "Meridian Finance Ops",
+    "website": "https://meridianfinops.example",
+    "contact_name": "Raj Patel",
+    "contact_title": "Controller",
+    "contact_email": "raj@meridianfinops.example",
+    "location": "Boston, MA",
+    "raw_data": "Mid-market manufacturing company finance team. PO approvals and vendor onboarding still paper + email. Audit prep takes weeks. Controller evaluating tools that give role-based routing and exportable audit logs without SAP-level complexity."
+  },
+  {
+    "product_name": "FlowOps Core",
+    "company_name": "Clearview Property Management",
+    "website": "https://clearviewpm.example",
+    "contact_name": "Nina Brooks",
+    "contact_title": "Head of Operations",
+    "contact_email": "nina@clearviewpm.example",
+    "location": "Portland, OR",
+    "raw_data": "Manages 1,200 residential units. Maintenance ticket approvals and vendor spend over $500 require manager sign-off via email. Wants mobile-friendly approvals and better visibility for regional managers."
+  },
+  {
+    "product_name": "Bookwell Pro",
+    "company_name": "Riverbend Physical Therapy",
+    "website": "https://riverbendpt.example",
+    "contact_name": "Tom Nguyen",
+    "contact_title": "Clinic Director",
+    "contact_email": "tom@riverbendpt.example",
+    "location": "San Diego, CA",
+    "raw_data": "Outpatient PT clinic, 3 therapists. Booking done by phone; website is static. High no-show rate on first visits. Considering online booking + deposit collection after reading industry blogs."
+  }
+]
